@@ -491,38 +491,3 @@ LogInit: Object subsystem initialized
  with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
 [2019.01.28-19.03.36:482][462]LogD3D11RHI: [Aftermath] GDynamicRHI=000002190AF020C0, GDX11NVAfterMathEnabled=0, Result=0xFFFFFFFF, bDeviceActive=0
 [2019.01.28-19.03.36:482][462]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2019.01.28-19.03.39:645][462]LogWindows: Windows GetLastError: The operation completed successfully. (0)
-[2019.01.28-19.03.39:645][462]LogWindows: Error: === Critical error: ===
-[2019.01.28-19.03.39:645][462]LogWindows: Error: 
-[2019.01.28-19.03.39:645][462]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 826] 
-[2019.01.28-19.03.39:645][462]LogWindows: Error: Rendering thread exception:
-[2019.01.28-19.03.39:645][462]LogWindows: Error: Fatal error: [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 200] 
-[2019.01.28-19.03.39:645][462]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
-[2019.01.28-19.03.39:645][462]LogWindows: Error: 
-[2019.01.28-19.03.39:645][462]LogWindows: Error: 
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffd1554a388 KERNELBASE.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcf5f86850 UE4Editor-ApplicationCore.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcb35662fc UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcb34f51db UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca467adea UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca467e6e4 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca4655951 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca466abf8 UE4Editor-D3D11RHI.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffce931b106 UE4Editor-RHI.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca43e1b42 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffca43e7d0a UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcb3381f92 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcb3382456 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:645][462]LogWindows: Error: [Callstack] 0x00007ffcf60075f9 UE4Editor-RenderCore.dll!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: [Callstack] 0x00007ffcf6008574 UE4Editor-RenderCore.dll!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: [Callstack] 0x00007ffcb37c6b7c UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: [Callstack] 0x00007ffcb37c17c7 UE4Editor-Core.dll!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: [Callstack] 0x00007ffd17f73034 KERNEL32.DLL!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: [Callstack] 0x00007ffd18513691 ntdll.dll!UnknownFunction []
-[2019.01.28-19.03.39:646][462]LogWindows: Error: 
-[2019.01.28-19.03.39:646][462]LogWindows: Error: 
-[2019.01.28-19.03.39:646][462]LogWindows: Error: 
-[2019.01.28-19.03.39:646][462]LogWindows: Error: 
-[2019.01.28-19.03.39:671][462]LogExit: Executing StaticShutdownAfterError
-[2019.01.28-19.03.39:689][462]LogWindows: FPlatformMisc::RequestExit(1)
-[2019.01.28-19.03.39:700][462]Log file closed, 01/28/19 12:03:39
